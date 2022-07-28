@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.visibility {
+    display: none;
+}
+
+
+main {
+    background-color: hsl(270, 22%, 18%);
+    text-align: center;
+    padding: 20px 20px;
+}
+footer {
+    background-color: brown;
+    padding: 21px 21px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+#header{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 25px;
+    word-spacing: 5px;
+}
+#parameter {
+    color: white;
+}
+#parameter button {
+    padding: 10px;
+}
+#range__value {
+    color: white;
+}
+#parameter button:last-child {
+    width: 50px;    
+    height: 45px;
+    padding: 10px;
+}
+#pen--color__parameter {
+    width: 30px;
+}
+#layer {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    display: grid;
+    margin: auto;
+    gap: 0px;
+    justify-content: center;
+    grid-template-columns: repeat(16, 16  fr);
+    grid-template-rows: repeat(16, 16fr);
+}
+
+#layer div {
+    border: 0.2px solid grey   ;
+}
+
+

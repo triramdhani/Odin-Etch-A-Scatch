@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin project Etch A Scatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <h2>ETCH A SCATCH</h2>
+        </div>
+    </header>
+    <main>
+        <div id="parameter">
+            <button id="size__parameter" onclick="showRange()">Size</button>
+            <button id="clear__parameter" onclick="clean()" >Clear</button>
+            <label for="">Pen Color</label><input type="color" id="pen--color__parameter"></input>
+        </div>
+        <div id="size__parameter--area">
+            <div id="slide__container" class="visibility">
+                <input type="range" min="1" value="16" max="50" id="size__range" oninput="changeValue()" >
+                <div id="range__value" >
+                    <p>Ukuran Grid adalah <span id="value">16</span> X <span id="value2">16</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="layer">
+            
+        </div>
+    </main>
+    <footer>
+        created By Tri Ramdhani
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
