@@ -5,3 +5,5 @@ Work In Progress
 to do 
 - Ubah warna background dengan random color ketika box terkena hover
 - beberapa pilihan warna untuk pensil
+
+Live web : https://triramdhani.github.io/Odin-Etch-A-Scatch/
